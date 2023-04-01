@@ -37,7 +37,7 @@ public class Run {
         v5.cor = "Preto";
         v5.setMotor(motor);
 
-        System.out.println("           Marca |  Modelo | qtd rodas | cor | qtd pistao");
+        System.out.println("           Marca |  Modelo | qtd rodas | cor | motor");
         System.out.println("************************************************************");
 
         System.out.println("Veiculo 1: " + v1.exibeMarca() + " |  " + v1.exibeModelo() + "  |     " + v1.quantidadeRodas  + "     | " + v1.cor + " | " + v1.getMotor());
